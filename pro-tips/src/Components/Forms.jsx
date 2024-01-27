@@ -26,7 +26,7 @@ const Forms = () => {
     setError(errors);
 
     if (Object.keys(errors).length === 0) {
-      toast("You have registered successfully YAAYAYY!!");
+      toast("You have registered successfully!");
       setFormSubmit(true);
     } else {
       setFormSubmit(false);
@@ -55,7 +55,7 @@ const Forms = () => {
       <div className="parent">
         <form onSubmit={handleSubmit} className="form">
           <div className="message">
-            {formSubmit && <p className="successMessage">Registration completed Successfully :)</p>}
+            {formSubmit && <p className="successMessage">Registration completed Successfully!</p>}
           </div>
           <div className="inputContainer">
             <label htmlFor="firstName" className="label">
