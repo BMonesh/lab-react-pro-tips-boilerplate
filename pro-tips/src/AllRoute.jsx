@@ -1,6 +1,6 @@
 import React from 'react'
 import {Routes, Route } from 'react-router-dom'
-import Squad51 from './Components/Squad51'
+import Home from './Components/Home'
 import Forms from './Components/Forms'
 import About from './Components/About'
 

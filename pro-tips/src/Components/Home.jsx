@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Squad51 = () => {
+const Home = () => {
   return (
     <>
      <h1>Home Page :)</h1>  
@@ -8,4 +8,4 @@ const Squad51 = () => {
   )
 }
 
-export default Squad51
+export default Home
